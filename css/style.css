@@ -1,0 +1,1148 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 16px;
+    color: #232323;
+    background: #ffffff;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+    padding:0 !important;
+}
+
+a{
+    color: inherit;
+    text-decoration: none !important;
+}
+
+.clearFix{
+    clear: both;
+}
+
+/*====== header =======*/
+
+
+
+.topNav{
+    background: #2d3e50;
+    color: #fff;
+    padding:23px 0 22px 0;
+    font-size: 14px;
+    font-weight:300;
+}
+
+.topNav .container{
+    padding: 0;
+}
+
+.topNav span{
+    float: left;
+    margin-left: 15px;
+}
+
+.topNav span a:hover, .topNav span i:hover{
+    color: rgb(255, 196, 0) !important;
+}
+
+.topNav .fa{
+    margin-right: 20px;
+}
+
+.topNav p{
+    float: right;
+    margin-bottom: 0 !important;
+    margin-right: 15px;
+}
+
+/*===== navbar =====*/
+
+header .navbar-nav .nav-link{
+    text-transform: uppercase;
+    color: #252c30;
+    font-weight: 400;
+    margin-left: 62px;
+    font-size: 16px;
+} 
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding:0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover,.navbar-expand-lg .navbar-nav .nav-link:focus-within{
+    color: #ffc000 !important;
+}
+
+.navbar-brand{
+    padding:0;
+}
+
+.navbar{
+    padding: 31px 0 32px 0 !important;
+}
+
+.navbar .container{
+    padding: 0 15px !important;
+}
+
+/*======== carousel =======*/
+
+.carousel{
+    margin-bottom: 120px;
+}
+
+.btns{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    z-index: 99;
+    color: #ffc000 ;
+    font-size: 40px;
+}
+
+.btns a{
+    display:block;
+    padding: 10px 15px;
+}
+
+.prev{
+    float: left;
+    margin-left: 8%;
+}
+
+.prev:hover,.next:hover{
+    border-radius: 100%;
+    color: #ffff;
+}
+
+.next{
+    float: right;
+    margin-right: 8%;
+}
+
+.carousel-indicators{
+    bottom: 10%;
+}
+
+
+.carousel-indicators li{
+    width: 50px;
+    height: 10px !important;
+    background: #c1a241;
+    border:0 !important;
+    margin:0 11px;
+}
+
+.carousel-indicators .active{
+    background: #ffc000;
+}
+
+/*===== carousel caption ======*/
+
+.carousel-caption{
+    top: 18% !important;
+    padding: 0;
+}
+
+.carousel-caption h1{
+    font-size: 72px;
+    text-transform: capitalize;
+    margin:0;
+}
+
+.highlight{
+    color: #ffc000;
+}
+
+.carousel-caption p{
+    font-size: 16px;
+    margin:36px 0 55px 0 !important;
+}
+
+.carousel-caption button{
+    outline: none;
+    background: #ffc000;
+    text-transform: uppercase;
+    padding: 25px 86px;
+    color: #fff;
+    font-size: 18px;
+    border:0;
+    border-radius: 50px;
+}
+
+.carousel-caption button:hover, .prev:hover,.next:hover , .top:hover{
+    background: #4c6a7c;
+    box-shadow: 5px 10px 15px #333,inset 0px 0px 20px #fff;
+}
+
+.top{
+    font-size: 30px;
+    padding: 15px 25px;
+    display: none;
+    position:fixed;
+    right: 1%;
+    top: 70%;
+    background: #ffc000;
+    color: rgb(255, 255, 255);
+    z-index:999;
+    cursor: pointer;
+}
+
+/*======= offer =======*/
+
+.offer{
+    width:100%;
+    text-align:center;
+    margin-bottom: 57px;
+}
+
+.offer h1, .offer h3, .offer p{
+    margin:0;
+}
+
+.offer h3{
+    font-size: 18px;
+    color: #232323;
+    font-weight: 400;
+}
+
+.offer h1{
+    width:100%;
+    margin:18px 0 29px 0;
+}
+
+.offer p{
+    width: 72%;
+    font-size: 18px;
+    margin: auto;
+}
+
+/*============= about ============*/
+
+.about{
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.box{
+    width: 25%;
+    margin-right: 2%;
+    background: #2d3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 0 22px; 
+}
+
+.box:last-child{
+    margin-right:0 !important;
+}
+
+.box h4{
+    font-size: 18px;
+    margin:44px 0 20px 0 !important;
+}
+
+.box p{
+    margin-bottom: 85px !important;
+}
+
+.box .fa{
+    font-size: 38px;
+    border-radius: 100%;
+    margin-top: 60px;
+    padding: 20px;
+    color: #ffc000;
+    background: #ffffff;
+}
+
+.box:hover{
+    background: #ffffff;
+    color: #232323;
+    border: 1px solid #ffc000
+}
+
+.box:hover .fa{
+    background: #ffc000;
+    color: #ffffff;
+}
+
+
+/*======== service =========*/
+
+.service{
+    position: relative;
+    margin-bottom: 118px;
+}
+
+.service .col-lg-7{
+    position: absolute;
+    left:0 !important;
+    top:0;
+    height: 100%;
+}
+
+.service .col-lg-7{
+    padding:0 !important;
+}
+
+.service .col-lg-5{
+    padding: 0% !important;
+    margin-left: auto;
+}
+
+.service .servInfo{
+    margin-left: 60px !important;
+}
+
+.servInfo h1{
+    margin-bottom: 60px;
+}
+
+.info{
+    display: flex;
+    z-index: 99;
+}
+
+.info p{
+    width: 100%;
+    font-size: 12px;
+    margin-bottom: 42px;
+}
+
+.info h4{
+    margin-bottom: 20px;
+    display: block;
+}
+
+.info .fa{
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 100%;
+    background: #2d3e50;
+    color: #ffffff;
+    margin-right: 35px;
+    cursor:pointer;
+}
+
+/*========== projectInfo =============*/
+
+.projectInfo{
+    width:100% !important;
+    height: auto;
+    background: url(../images/client_02.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    color: #ffffff;
+    text-align:center;
+    margin-bottom: 108px;
+    /* display: none; */
+}
+
+
+.projectInfo h3{
+    font-size: 26px;
+    margin:80px 0 28px 0;
+}
+
+.projectInfo h1{
+    font-size: 46px;
+    margin-bottom: 80px;
+}
+
+/*========= what we offer ===========*/
+
+.whatOffer{
+    text-align: center;
+    margin-bottom: 82px;
+}
+
+.whatOffer h1, .whatOffer h4{
+    text-transform: capitalize;
+    margin:0;
+    color: #252c30;
+}
+
+.whatOffer h1{
+    margin: 17px 0 36px 0;
+}
+
+
+/*========= bestoffer ============*/
+
+.bestoffer h3{
+    font-size: 26px;
+    margin-bottom: 16px;
+    font-weight: 400;
+}
+
+.bestoffer span .fa{
+    font-size: 48px;
+    color: #ffc000;
+    margin-right: 60px;
+    cursor:pointer;
+}
+
+.bestoffer .col-lg-4{
+    padding:0 !important;
+}
+
+.bestoffer .row:last-child{
+    margin: 62px 0 120px 0;
+}
+
+
+/*============= ourProject ================*/
+
+.ourProject{
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.ourProject h1, .ourProject h4{
+    text-transform: capitalize;
+}
+
+.ourProject h4, .ourProject p{
+    font-size: 18px;
+    margin:0;
+}
+
+.ourProject h1{
+    margin: 18px 0 28px 0;
+}
+ 
+/*================ tab ==================*/
+
+.proTab{
+    position: relative;
+    text-align:center;
+    margin-bottom: 120px;
+}
+
+.proTab .tab button{
+    outline: none;
+    border:none;
+    background: transparent;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin:0 17px;
+    color: #fff;
+    background: #082749;
+    padding:10px 20px;
+}
+
+.proTab .tab button:hover{
+    background: rgb(0, 183, 255);
+}
+
+.proTab .tab{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.taimage{
+    width:25%;
+    height: 100%;
+}
+
+.tabInfo{
+    display: none;
+    animation: fadeEffect 1.2s;
+}
+
+@keyframes fadeEffect{
+    from{
+        opacity:0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+/*=========== member ============*/
+
+.member{
+    margin-bottom: 200px;
+}
+
+.member .box1{
+    width:33.33%;
+    height: auto;
+    margin-right: 2.5%;
+    text-align:center;
+    background: #2d3e50;
+    color: #fff;
+}
+
+.member .box1 h4{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.member .box1 h6{
+    font-size: 14px;
+    margin: 12px 0 30px 0;
+    color: #ffc000;
+}
+
+.member .box1:last-child{
+    margin-right:0 !important;
+}
+
+.member .box1 span .fa{
+    font-size: 15px;
+    padding: 12px;
+    color: #2d3e50;
+    background: #ffffff;
+    margin:0 11px 52px 11px;
+}
+
+.member .box1 span .fa:hover{
+    background: rgb(134, 93, 187);
+    transform: scale(1.5);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.bicon{
+    margin: 52px 0 40px 0;
+}
+
+.member-flex{
+    display: flex;
+}
+
+/*============= client ===========*/
+
+.client{
+    background: #f4f4f4;
+    padding: 80px 0;
+    margin-bottom: 118px;
+    position: relative;
+}
+
+.client .clientInfo{
+    width: 80%;
+    background: #ffffff;
+    padding:70px 104px;
+    margin:auto;
+    border-radius: 25px;
+    box-shadow: 0 0 30px #9b9b9e;
+    display: none;
+    animation: fadeEffect 1.2s;
+}
+
+.client .clientInfo .information{
+    display: flex;
+    align-items: center;
+    margin-bottom: 44px;
+}
+
+.client .clientInfo .information img{
+    box-shadow: 0 0 20px #4c6a7c;
+    border-radius: 100%;
+}
+
+.client .clientInfo .information span h4{
+    text-transform: uppercase;
+    color: #2d3e50;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.client .clientInfo .information span p{
+    font-size: 14px;
+    color: #475666;
+    text-transform: uppercase;
+    margin:0;
+}
+
+.client .clientInfo .information span{
+    margin-left: 29px;
+}
+
+.client .clientInfo span p{
+    color: #56616e;
+}
+
+.clientInfo span .d-flex .fa{
+    font-size: 18px;
+    color: #ffc000;
+    margin-right: 14px;
+} 
+
+
+.client button{
+    outline: none;
+    border:0;
+    padding:15px 20px;
+    font-size: 18px;
+    color:#ffffff;
+    background: #4c6a7c;
+    box-shadow: inset 0px 0px 20px #fff;
+    position: absolute;
+    bottom: 15%; 
+    left:0;
+    right:0;
+    margin:auto;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.clientpro{
+    position: relative;
+}
+
+.client button span:before , .client button span:after{
+    content: '';
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background: transparent;
+    border-radius: 50px;
+    border:.5px solid rgb(134, 140, 155);
+    animation: wave 1s linear 1s infinite;
+    /* opacity:0; */
+}
+
+.client button span:after{
+    border:1px solid rgb(134, 140, 155);
+    animation:wave2 1s linear 1s infinite;
+    /* opacity:0; */
+}
+
+@keyframes wave{
+    0%{
+        opacity:1;
+    }
+
+    25%{
+        opacity:1;
+    }
+
+    50%{
+        opacity:1;
+    }
+
+    75%{
+        opacity:0;
+    }
+
+    100%{
+        opacity:0;
+        transform: scale(1.5);
+    }
+}
+
+@keyframes wave2{
+    0%{
+        opacity:1;
+    }
+
+    25%{
+        opacity:1;
+    }
+
+    50%{
+        opacity:1;
+    }
+
+    75%{
+        opacity:0;
+    }
+
+    100%{
+        opacity:0;
+        transform: scale(1.2);
+    }
+}
+
+
+/*================= news =================*/
+
+.news{
+    margin-bottom: 120px;
+}
+
+.news .row{
+    justify-content: center;
+
+}
+
+.news .row .box2{
+    width: 26%;
+    height: auto;
+    background: #ffc000;
+    color: #ffff;
+    margin:0 37px;
+    cursor:pointer;
+}
+
+.news .box2 figure figcaption{
+    padding: 28px;
+}
+
+.news .box2 figure figcaption h4{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 36px;
+}
+
+.news .box2 figure figcaption p{
+    margin-bottom: 30px;
+}
+
+.news .box2 figure figcaption span p{
+    font-size: 14px;
+    margin-bottom: 27px;
+}
+
+.news .box2 figure figcaption span p:last-child{
+    margin-left:auto;
+}
+
+/*======== footer ============*/
+
+footer{
+    text-align: center;
+}
+
+footer h3{
+    font-size: 24px;
+    margin-bottom: 64px;
+}
+
+
+footer form{
+    display: flex;
+    width: 42% !important;
+    position: relative;
+    margin:auto;
+}
+
+.form-control{
+    height: 65px;
+    border-radius: 50px;
+    box-shadow: 0 0 25px #56616e !important;
+    text-indent: 20px;
+    outline: none;
+}
+
+footer p{
+    font-size: 12px;
+    margin: 120px 0px;
+}
+
+footer button{
+    border:0;
+    outline:none !important;
+    position: absolute;
+    top:0;
+    right:0;
+    background: #ffc000;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 18px 70px;
+    color: #fff;
+}
+ 
+/*======== for smart phone =======*/
+
+@media(min-width: 320px) and (max-width: 767px){
+
+    .container{
+        width: 100% !important;
+        padding: 0 10px !important;
+    } 
+
+    .row{
+        margin:0 !important;
+    }
+ 
+    .topNav span , .topNav p{
+        width:100% !important;
+        float: none;
+    }
+
+    .topNav p{
+        padding-top: 10px;
+        padding-left: 15px;
+    }
+ 
+    /*====== navbar ======*/
+
+    .navbar-toggler{
+        background-color: #2d3e50;
+        margin-right: 10px;
+        color: #ffc000;
+    }
+
+    .navbar-brand{
+        margin-left: 15px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin-top: 15px;
+    }
+
+
+    /*====== carousel ========*/
+
+    .carousel{
+        margin-bottom: 50px;
+    }
+
+    .carousel-indicators{
+        bottom: 1%;
+    }    
+
+    .carousel-indicators li{
+        width: 30px;
+        height: 5px !important;
+    }
+
+    .carousel-caption{
+        top: 0% !important;
+    }
+
+    .carousel-caption h1{
+        font-size: 20px;
+    }
+
+    .carousel-caption p{
+        font-size: 8px;
+        margin:7px 0 10px 0 !important;
+    }
+
+    .btns a{
+        display:block;
+        padding: 5px 7px;
+    }
+
+    .carousel-caption button{
+        padding: 7px 5px;
+        font-size: 8px;
+    }
+
+    /*===== offer =======*/
+
+    .offer h1{
+        width:100%;
+        font-size: 20px;
+    }
+
+    .offer p{
+        font-size: 12px;
+    }
+
+    /*======== about ========*/
+
+    .about{
+        flex-wrap: wrap !important;
+        margin-bottom: 50px;
+        padding:0 10px;
+    }
+
+    .box{
+        width: 100%;
+        margin-right:0 !important;
+        margin-bottom: 25px;
+    }
+
+    /*====== service =======*/
+
+    .service{
+        margin-bottom: 50px;
+    }
+
+    .service .container{
+        padding: 0% !important;
+    }
+
+    .service .col-lg-5{
+        padding: 0% !important;
+        margin-left: 0 !important;
+    }
+
+    .service .row{
+        margin:0 !important;
+        flex-wrap:wrap !important ;
+    }
+
+    .serImg{
+        width: 100% !important;
+        margin: 0% !important;
+    }
+
+    .service .col-lg-5{
+        margin-top: 80%; 
+    }
+
+    .service .servInfo{
+        margin: 0 20px !important;
+        /* display: none; */
+    }
+
+    .servInfo h1{
+        font-size: 30px;
+        margin:20px 0;
+    }
+
+    /*=========== our project ===========*/
+
+    .ourProject h1{
+        font-size: 25px;
+    }
+
+    /*======= projectInfo ========*/
+
+   
+
+    .projectInfo .col-xs-12{
+        padding:0 !important;
+    } 
+
+    .projectInfo h3{
+        display: block !important;
+
+    }
+
+    /*======= bestoffer ========*/
+
+    .bestoffer .row:last-child{
+        margin: 62px 0 !important;
+    }
+
+    .bestoffer .col-lg-4{
+        padding:0 10px !important;
+    }
+
+    .bestoffer span .fa{
+        font-size: 30px;
+        margin-right: 20px;
+    }
+
+    /*========== tabs ===========*/
+
+    .proTab{
+        margin-bottom: 50px;
+    }
+
+    .proTab .tab button{
+        font-size: 9px;
+        margin:0 5px;
+        padding:5px 10px;
+        display: inline-block;
+    }
+
+    /*=========== member ==========*/
+
+    .member{
+        margin-bottom: 50px;
+    }
+    
+    .member .box1{
+        width:100%;
+        margin: 10px;
+
+    }
+
+    .member .box1:last-child{
+        margin-right: 10px !important;
+    }
+    
+    .member .box1 h4{
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    
+    .member .box1 h6{
+        font-size: 12px;
+        margin: 12px 0 30px 0;
+        color: #ffc000;
+    }
+
+    .member-flex{
+        flex-wrap: wrap;
+    }
+
+    /*=========== client ==========*/
+
+    .client{
+        padding: 50px 0;
+        margin-bottom: 50px;
+    }
+    
+    .client .clientInfo{
+        width: 100%;
+        padding: 70px !important;
+    }
+
+    .client button{
+        padding:10px 15px;
+        font-size: 12px;
+        bottom: 7%; 
+    }
+
+/*================= news =================*/
+
+.news{
+    margin-bottom: 50px;
+}
+
+.news .row{
+    margin:0 !important;
+}
+
+.news .row .box2{
+    width: 100% !important;
+    margin: 10px 0;
+}
+
+/*======== footer ============*/
+
+
+footer form{
+    width: 100% !important;
+    flex-wrap : wrap;
+}
+
+.form-control{
+    height: 65px;
+    border-radius: 50px;
+    box-shadow: 0 0 25px #56616e !important;
+    text-indent: 20px;
+    outline: none;
+    font-size: 14px;
+}
+
+footer p{
+    font-size: 12px;
+    margin: 50px 0px;
+}
+
+footer button{
+    font-size: 15px;
+    padding: 22px 30px;
+    color: #fff;
+}
+    
+}
+
+@media only screen and (min-width: 500px) and (max-width:767px){
+
+    .carousel-indicators li{
+        width: 50px;
+        height: 5px !important;
+    }
+
+    .carousel-caption{
+        top: 10% !important;
+    }
+
+    .carousel-caption h1{
+        font-size: 30px;
+    }
+
+    .carousel-caption p{
+        font-size: 12px;
+        margin:10px 0 10px 0;
+    }
+
+    .carousel-caption button{
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+
+    /*===== offer =======*/
+
+    .offer h1{
+        width:100%;
+        font-size: 30px;
+    }
+
+    .offer p{
+        font-size: 15px;
+    }
+
+    /*======= service ========*/
+
+    /*====== bestoffer ========*/
+
+    .bestoffer span .fa{
+        font-size: 40px;
+        margin-right: 30px;
+    }
+
+    .bestoffer .col-lg-4{
+        margin: 20px 0;
+    }
+
+    .bestoffer .row:last-child{
+        margin: 25px 0 !important;
+    }
+
+    /*============= tab ==============*/
+
+    .proTab .tab button{
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+
+      /*=========== our project ===========*/
+
+      .ourProject h1{
+        font-size: 36px;
+    }
+
+    /*========= member ===========*/
+
+}
+
+@media only screen and (min-width:400px){
+
+    .carousel-caption{
+        top: 10% !important;
+    }
+
+    .carousel-caption p{
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px){
+
+    /*========= service ===========*/
+
+    .service .col-lg-5{
+        margin-top: 100%; 
+    }
+
+    /*========= member ============*/
+
+    .member .box1{
+        width:30%;
+        margin-right: 10px;
+
+    }
+
+    .member .box1:last-child{
+        margin-right: 0px !important;
+    }
+
+    /*======== news =========*/
+
+}
